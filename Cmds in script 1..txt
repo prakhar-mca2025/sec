@@ -1,0 +1,15 @@
+Cmds in script 1. 
+chmod +x name_roll.sh 
+ls -l name_roll.sh -> showing permisiions 
+head -n 20 name_roll.sh -> showing the file 
+bash -n name_roll.sh -> syntax 
+Cmds in 2 
+bash -x test.sh ->debug 
+./test.sh > output.log 2> error.log 
+ls -l test.sh 
+head -n 20 test.sh 
+Cmds for 3 
+time ./myscript.sh 
+perf stat ./myscript.sh 
+strace -e open,read,write ./myscript.sh 
+top
